@@ -127,6 +127,7 @@ export default class ActionButton extends Component {
                 inputRange: [0, 1],
                 outputRange: [this.state.buttonColor, this.state.btnOutRange]
               }),
+              elevation: this.state.active ? 12 : 6,
               transform: [{
                   scale: this.state.anim.interpolate({
                     inputRange: [0, 1],
